@@ -16,6 +16,8 @@
 		B1A00B4B29D0709600758BD9 /* iOSLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A00B4A29D0709600758BD9 /* iOSLabTests.swift */; };
 		B1A00B5529D0709600758BD9 /* iOSLabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A00B5429D0709600758BD9 /* iOSLabUITests.swift */; };
 		B1A00B5729D0709600758BD9 /* iOSLabUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A00B5629D0709600758BD9 /* iOSLabUITestsLaunchTests.swift */; };
+		B1A00B6629D071A600758BD9 /* InstaStyleParticleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A00B6429D071A600758BD9 /* InstaStyleParticleVC.swift */; };
+		B1A00B6729D071A600758BD9 /* InstaStyleParticleVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1A00B6529D071A600758BD9 /* InstaStyleParticleVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		B1A00B5029D0709600758BD9 /* iOSLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1A00B5429D0709600758BD9 /* iOSLabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSLabUITests.swift; sourceTree = "<group>"; };
 		B1A00B5629D0709600758BD9 /* iOSLabUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSLabUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B1A00B6429D071A600758BD9 /* InstaStyleParticleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaStyleParticleVC.swift; sourceTree = "<group>"; };
+		B1A00B6529D071A600758BD9 /* InstaStyleParticleVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InstaStyleParticleVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		B1A00B3229D0709500758BD9 /* iOSLab */ = {
 			isa = PBXGroup;
 			children = (
+				B1A00B6329D0717800758BD9 /* InstaStyleParticle */,
 				B1A00B3329D0709500758BD9 /* AppDelegate.swift */,
 				B1A00B3529D0709500758BD9 /* SceneDelegate.swift */,
 				B1A00B3729D0709500758BD9 /* ViewController.swift */,
@@ -125,6 +130,15 @@
 				B1A00B5629D0709600758BD9 /* iOSLabUITestsLaunchTests.swift */,
 			);
 			path = iOSLabUITests;
+			sourceTree = "<group>";
+		};
+		B1A00B6329D0717800758BD9 /* InstaStyleParticle */ = {
+			isa = PBXGroup;
+			children = (
+				B1A00B6429D071A600758BD9 /* InstaStyleParticleVC.swift */,
+				B1A00B6529D071A600758BD9 /* InstaStyleParticleVC.xib */,
+			);
+			path = InstaStyleParticle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +247,7 @@
 			files = (
 				B1A00B4029D0709600758BD9 /* LaunchScreen.storyboard in Resources */,
 				B1A00B3D29D0709600758BD9 /* Assets.xcassets in Resources */,
+				B1A00B6729D071A600758BD9 /* InstaStyleParticleVC.xib in Resources */,
 				B1A00B3B29D0709500758BD9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +275,7 @@
 			files = (
 				B1A00B3829D0709500758BD9 /* ViewController.swift in Sources */,
 				B1A00B3429D0709500758BD9 /* AppDelegate.swift in Sources */,
+				B1A00B6629D071A600758BD9 /* InstaStyleParticleVC.swift in Sources */,
 				B1A00B3629D0709500758BD9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
