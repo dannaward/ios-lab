@@ -30,6 +30,8 @@ extension InstaStyleParticleVC {
         heartCell.velocity = 100
         heartCell.emissionRange = .pi / 5
         heartCell.emissionLongitude = .pi / -2
+        heartCell.alphaRange = 0.3
+        heartCell.alphaSpeed = -0.5
 
         heartEmitter.emitterCells = [heartCell]
         view.layer.addSublayer(heartEmitter)
